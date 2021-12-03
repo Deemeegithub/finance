@@ -87,7 +87,6 @@ var appController = (function(uiCtrllr, fnCtrllr){
        
        var item = fnCtrllr.addItem(input.type,input.description,input.value);
        
-       console.log(item);
         uiCtrllr.addListItem(item,input.type);
     }
 
